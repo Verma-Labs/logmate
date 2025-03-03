@@ -10,4 +10,7 @@ pip install logmate
 
 pip install git+https://github.com/Verma-Labs/logmate.git
 
-
+## 🚀 Update to LogMate v0.1.2
+LogMate now fully supports CLI execution.  
+Upgrade now with:
+pip install --upgrade logmate
