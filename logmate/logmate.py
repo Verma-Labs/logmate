@@ -139,8 +139,9 @@ class LogMate:
 # Create a global instance
 log = LogMate()
 
-# CLI Argument Parsing
-if __name__ == "__main__":
+# ✅ **ADD THIS FUNCTION AT THE BOTTOM**
+def main():
+    """Entry point for CLI usage."""
     parser = argparse.ArgumentParser(description="LogMate - Smart Log Management Tool")
     parser.add_argument("--level", help="Filter logs by level (INFO, WARNING, ERROR)")
     parser.add_argument("--keywords", help="Comma-separated list of keywords to filter logs")
@@ -163,3 +164,6 @@ if __name__ == "__main__":
     console.print("\nExtracted Logs:")
     for entry in extracted_logs:
         console.print(entry)
+
+if __name__ == "__main__":
+    main()

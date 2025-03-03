@@ -1,6 +1,6 @@
 Metadata-Version: 2.2
 Name: logmate
-Version: 0.1.1
+Version: 0.1.2
 Summary: A smart log management tool with rich text output, filtering, and export options.
 Home-page: https://github.com/Verma-Labs/logmate
 Author: Atul Verma

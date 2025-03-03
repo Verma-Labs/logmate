@@ -1,3 +1,3 @@
 from .logmate import LogMate
 
-__all__ = ["LogMate"]
+__all__ = ["LogMate", "main"]
